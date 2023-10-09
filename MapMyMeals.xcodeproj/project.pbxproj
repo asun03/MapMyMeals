@@ -7,23 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220BEE1A2A0056F300FEEF5F /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BEE192A0056F300FEEF5F /* AddReviewViewController.swift */; };
+		2210AC582A018A570098FA42 /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210AC572A018A570098FA42 /* AnnotationViewController.swift */; };
+		2210AC5A2A0194220098FA42 /* ReviewAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210AC592A0194220098FA42 /* ReviewAnnotation.swift */; };
+		229F6A4E29FBB157008CA428 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F6A4D29FBB157008CA428 /* ProfileViewController.swift */; };
+		22CC623429FE195800566E26 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 22CC623329FE195800566E26 /* GoogleSignInSwift */; };
+		22CC623629FE1A3200566E26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22CC623529FE1A3200566E26 /* GoogleService-Info.plist */; };
+		22CC623829FF313B00566E26 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC623729FF313B00566E26 /* RestaurantViewController.swift */; };
+		22CC623A29FF7AC300566E26 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC623929FF7AC300566E26 /* Restaurant.swift */; };
+		22CC62412A00426500566E26 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 22CC62402A00426500566E26 /* Kingfisher */; };
+		22D457A42A007B6000F8B6A7 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D457A32A007B6000F8B6A7 /* Review.swift */; };
 		22E3962A29F9D8B7004EE06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3962929F9D8B7004EE06F /* AppDelegate.swift */; };
 		22E3962C29F9D8B7004EE06F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3962B29F9D8B7004EE06F /* SceneDelegate.swift */; };
-		22E3962E29F9D8B7004EE06F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3962D29F9D8B7004EE06F /* ViewController.swift */; };
+		22E3962E29F9D8B7004EE06F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3962D29F9D8B7004EE06F /* SignUpViewController.swift */; };
 		22E3963129F9D8B7004EE06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E3962F29F9D8B7004EE06F /* Main.storyboard */; };
 		22E3963329F9D8B8004EE06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E3963229F9D8B8004EE06F /* Assets.xcassets */; };
 		22E3963629F9D8B8004EE06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E3963429F9D8B8004EE06F /* LaunchScreen.storyboard */; };
+		22E3964129F9DCD2004EE06F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 22E3964029F9DCD2004EE06F /* FirebaseAuth */; };
+		22E3964329F9DCD2004EE06F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 22E3964229F9DCD2004EE06F /* FirebaseFirestoreSwift */; };
+		22E3964529F9DCD2004EE06F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 22E3964429F9DCD2004EE06F /* FirebaseStorage */; };
+		22E3964729FA1935004EE06F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3964629FA1935004EE06F /* MapViewController.swift */; };
+		22E3964929FAE149004EE06F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3964829FAE149004EE06F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220BEE192A0056F300FEEF5F /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		2210AC572A018A570098FA42 /* AnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViewController.swift; sourceTree = "<group>"; };
+		2210AC592A0194220098FA42 /* ReviewAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewAnnotation.swift; sourceTree = "<group>"; };
+		229F6A4D29FBB157008CA428 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		22CC623529FE1A3200566E26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22CC623729FF313B00566E26 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		22CC623929FF7AC300566E26 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		22D457A32A007B6000F8B6A7 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		22E3962629F9D8B7004EE06F /* MapMyMeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapMyMeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E3962929F9D8B7004EE06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22E3962B29F9D8B7004EE06F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22E3962D29F9D8B7004EE06F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22E3962D29F9D8B7004EE06F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		22E3963029F9D8B7004EE06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22E3963229F9D8B8004EE06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22E3963529F9D8B8004EE06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22E3963729F9D8B8004EE06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E3964629FA1935004EE06F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		22E3964829FAE149004EE06F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +56,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E3964129F9DCD2004EE06F /* FirebaseAuth in Frameworks */,
+				22E3964329F9DCD2004EE06F /* FirebaseFirestoreSwift in Frameworks */,
+				22E3964529F9DCD2004EE06F /* FirebaseStorage in Frameworks */,
+				22CC623429FE195800566E26 /* GoogleSignInSwift in Frameworks */,
+				22CC62412A00426500566E26 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D457A52A00CF1400F8B6A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22CC623929FF7AC300566E26 /* Restaurant.swift */,
+				22D457A32A007B6000F8B6A7 /* Review.swift */,
+				2210AC592A0194220098FA42 /* ReviewAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22D457A62A00CF1D00F8B6A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22E3962F29F9D8B7004EE06F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22D457A72A00CF2100F8B6A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22E3962D29F9D8B7004EE06F /* SignUpViewController.swift */,
+				22E3964829FAE149004EE06F /* LoginViewController.swift */,
+				22E3964629FA1935004EE06F /* MapViewController.swift */,
+				229F6A4D29FBB157008CA428 /* ProfileViewController.swift */,
+				22CC623729FF313B00566E26 /* RestaurantViewController.swift */,
+				220BEE192A0056F300FEEF5F /* AddReviewViewController.swift */,
+				2210AC572A018A570098FA42 /* AnnotationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22D457A82A00CF6300F8B6A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E3962929F9D8B7004EE06F /* AppDelegate.swift */,
+				22E3962B29F9D8B7004EE06F /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		22E3961D29F9D8B7004EE06F = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +127,14 @@
 		22E3962829F9D8B7004EE06F /* MapMyMeals */ = {
 			isa = PBXGroup;
 			children = (
-				22E3962929F9D8B7004EE06F /* AppDelegate.swift */,
-				22E3962B29F9D8B7004EE06F /* SceneDelegate.swift */,
-				22E3962D29F9D8B7004EE06F /* ViewController.swift */,
-				22E3962F29F9D8B7004EE06F /* Main.storyboard */,
+				22D457A82A00CF6300F8B6A7 /* Supporting Files */,
+				22D457A52A00CF1400F8B6A7 /* Model */,
+				22D457A72A00CF2100F8B6A7 /* Controller */,
+				22D457A62A00CF1D00F8B6A7 /* View */,
 				22E3963229F9D8B8004EE06F /* Assets.xcassets */,
 				22E3963429F9D8B8004EE06F /* LaunchScreen.storyboard */,
 				22E3963729F9D8B8004EE06F /* Info.plist */,
+				22CC623529FE1A3200566E26 /* GoogleService-Info.plist */,
 			);
 			path = MapMyMeals;
 			sourceTree = "<group>";
@@ -83,6 +155,13 @@
 			dependencies = (
 			);
 			name = MapMyMeals;
+			packageProductDependencies = (
+				22E3964029F9DCD2004EE06F /* FirebaseAuth */,
+				22E3964229F9DCD2004EE06F /* FirebaseFirestoreSwift */,
+				22E3964429F9DCD2004EE06F /* FirebaseStorage */,
+				22CC623329FE195800566E26 /* GoogleSignInSwift */,
+				22CC62402A00426500566E26 /* Kingfisher */,
+			);
 			productName = MapMyMeals;
 			productReference = 22E3962629F9D8B7004EE06F /* MapMyMeals.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,11 @@
 				Base,
 			);
 			mainGroup = 22E3961D29F9D8B7004EE06F;
+			packageReferences = (
+				22E3963F29F9DCD2004EE06F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				22CC623229FE195800566E26 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				22CC623F2A00426500566E26 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 22E3962729F9D8B7004EE06F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E3963629F9D8B8004EE06F /* LaunchScreen.storyboard in Resources */,
+				22CC623629FE1A3200566E26 /* GoogleService-Info.plist in Resources */,
 				22E3963329F9D8B8004EE06F /* Assets.xcassets in Resources */,
 				22E3963129F9D8B7004EE06F /* Main.storyboard in Resources */,
 			);
@@ -138,9 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E3962E29F9D8B7004EE06F /* ViewController.swift in Sources */,
+				229F6A4E29FBB157008CA428 /* ProfileViewController.swift in Sources */,
+				22E3962E29F9D8B7004EE06F /* SignUpViewController.swift in Sources */,
+				2210AC582A018A570098FA42 /* AnnotationViewController.swift in Sources */,
+				22CC623829FF313B00566E26 /* RestaurantViewController.swift in Sources */,
+				2210AC5A2A0194220098FA42 /* ReviewAnnotation.swift in Sources */,
+				220BEE1A2A0056F300FEEF5F /* AddReviewViewController.swift in Sources */,
 				22E3962A29F9D8B7004EE06F /* AppDelegate.swift in Sources */,
+				22D457A42A007B6000F8B6A7 /* Review.swift in Sources */,
+				22CC623A29FF7AC300566E26 /* Restaurant.swift in Sources */,
 				22E3962C29F9D8B7004EE06F /* SceneDelegate.swift in Sources */,
+				22E3964929FAE149004EE06F /* LoginViewController.swift in Sources */,
+				22E3964729FA1935004EE06F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,11 +383,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MapMyMeals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Map My Meals";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We'll use your location to search for nearby restaurants ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,11 +411,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MapMyMeals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Map My Meals";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We'll use your location to search for nearby restaurants ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +452,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22CC623229FE195800566E26 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		22CC623F2A00426500566E26 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		22E3963F29F9DCD2004EE06F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22CC623329FE195800566E26 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22CC623229FE195800566E26 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		22CC62402A00426500566E26 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22CC623F2A00426500566E26 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		22E3964029F9DCD2004EE06F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22E3963F29F9DCD2004EE06F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		22E3964229F9DCD2004EE06F /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22E3963F29F9DCD2004EE06F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		22E3964429F9DCD2004EE06F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22E3963F29F9DCD2004EE06F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22E3961E29F9D8B7004EE06F /* Project object */;
 }

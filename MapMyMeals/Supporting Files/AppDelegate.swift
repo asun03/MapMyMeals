@@ -6,16 +6,31 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseAuth
+import GoogleSignIn
+import GoogleSignInSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        FirebaseApp.configure()
+        
+        
+        // TODO: show view controllers depending on logged in status
+
+           return true
     }
+    
+//    // func to handle url for google sign in
+//    func application(_ app: UIApplication,
+//        open url: URL,
+//        options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+//        return GIDSignIn.sharedInstance.handle(url)
+//    }
+    
 
     // MARK: UISceneSession Lifecycle
 
